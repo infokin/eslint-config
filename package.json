@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint configuration.",
+  "author": "Johannes Hillert <johannes.hillert@infokin.org>",
+  "license": "MIT",
+  "keywords": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clovergaze/eslint-config.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "typescript": "^4.1.3"
+  }
+}

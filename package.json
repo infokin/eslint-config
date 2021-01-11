@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/clovergaze/eslint-config.git"
   },
+  "private": "true",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts ."

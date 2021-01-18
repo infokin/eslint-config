@@ -7,7 +7,7 @@ module.exports = {
         project: './tsconfig.eslint.json'
     },
     extends: [
-        './default.js'
+        './typescript.js'
     ]
 
 };

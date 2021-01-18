@@ -16,7 +16,7 @@ module.exports = {
         ecmaVersion: 2020
     },
     extends: [
-        './base.js',
+        './lib/base.js',
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking'

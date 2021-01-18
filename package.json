@@ -12,7 +12,6 @@
     "url": "https://github.com/clovergaze/eslint-config.git"
   },
   "private": "true",
-  "main": "index.js",
   "scripts": {
     "lint": "eslint --ignore-pattern '/test/' --ext .js,.ts .",
     "test": "eslint --ext .js,.ts ./test"

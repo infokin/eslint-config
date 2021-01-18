@@ -14,7 +14,8 @@
   "private": "true",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js,.ts ."
+    "lint": "eslint --ignore-pattern '/test/' --ext .js,.ts .",
+    "test": "eslint --ext .js,.ts ./test"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.13.0",

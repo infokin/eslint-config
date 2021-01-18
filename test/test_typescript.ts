@@ -56,7 +56,7 @@ method3();
 
 // Needs accessors (`@typescript-eslint/explicit-member-accessibility`)
 class Goat {
-    name: string;
+    name: string | undefined;
     sound: unknown;
 }
 const goat: Goat = new Goat();

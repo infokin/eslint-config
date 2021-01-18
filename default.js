@@ -8,7 +8,7 @@
 module.exports = {
 
     extends: [
-        './lib/base-typescript.js'
+        './lib/typescript.js'
     ]
 
 };

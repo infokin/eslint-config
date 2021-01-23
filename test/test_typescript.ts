@@ -32,7 +32,7 @@ function method1(_a1?: unknown, _a2?: unknown, _a3?: unknown): void {
 }
 method1();
 
-// No useless constructors (`@typescript-eslint/no-useless-constructor`)
+// No useless (e.g. empty) constructors (`@typescript-eslint/no-useless-constructor`)
 class A {
     constructor() { }
 }

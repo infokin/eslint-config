@@ -1,7 +1,7 @@
 {
   "name": "@infokin/eslint-config",
   "version": "0.1.0",
-  "description": "ESLint configuration.",
+  "description": "Provides a common ESLint configuration.",
   "author": {
     "name": "Johannes Hillert",
     "email": "johannes.hillert@infokin.org",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/clovergaze/eslint-config.git"
+    "url": "https://github.com/infokin/eslint-config"
   },
   "private": "true",
   "scripts": {
@@ -21,6 +21,7 @@
     "test": "eslint --ext .js,.ts ./test"
   },
   "devDependencies": {
+    "@infokin/tsconfig": "github:infokin/tsconfig#v0.1.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
     "eslint": "^7.17.0",

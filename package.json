@@ -16,6 +16,11 @@
     "url": "https://github.com/infokin/eslint-config"
   },
   "private": "true",
+  "main": "typescript.js",
+  "files": [
+    "./lib/base.js",
+    "typescript.js"
+  ],
   "scripts": {
     "lint": "eslint --ignore-pattern '/test/' --ext .js,.ts .",
     "test": "eslint --ext .js,.ts ./test"

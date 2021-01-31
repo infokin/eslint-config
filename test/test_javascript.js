@@ -16,13 +16,13 @@ method1(var1) ;
 const a = 1;const b = 2;
 method1(a, b);
 
-// No dangling comma (`@typescript-eslint/comma-dangle`)
+// No dangling comma (`comma-dangle`)
 const list = [one, 2, 3,];
 list.push(4);
 
-// No unused methods (warning) (`@typescript-eslint/no-unused-vars`)
+// No unused methods (warning) (`no-unused-vars`)
 function method2() {
-    // No unused variables (warning) (`@typescript-eslint/no-unused-vars`)
+    // No unused variables (warning) (`no-unused-vars`)
     const tmp = 'unused';
 }
 
@@ -32,11 +32,11 @@ function method1(_a1, _a2, _a3) {
 }
 method1();
 
-// Use single quotes (`@typescript-eslint/quotes`)
+// Use single quotes (`quotes`)
 let quotes = "double";
 quotes = 'single';
 method1(quotes);
 
-// Missing semicolon (`@typescript-eslint/semi`)
+// Missing semicolon (`semi`)
 const myVar = 5
 method1(myVar)

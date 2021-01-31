@@ -19,7 +19,8 @@
   "main": "typescript.js",
   "files": [
     "lib/base.js",
-    "typescript.js"
+    "typescript.js",
+    "angular.js"
   ],
   "scripts": {
     "lint": "eslint --ignore-pattern '/test/' --ext .js,.ts .",

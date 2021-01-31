@@ -1,0 +1,3 @@
+{
+  "extends": "@infokin/tsconfig/angular"
+}

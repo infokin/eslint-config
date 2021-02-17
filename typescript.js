@@ -13,8 +13,7 @@ module.exports = {
         {
             files: ['*.ts'],
             parserOptions: {
-                project: './tsconfig.json',
-                ecmaVersion: 2020
+                project: './tsconfig.json'
             },
             extends: [
                 'plugin:@typescript-eslint/recommended',
@@ -51,6 +50,8 @@ module.exports = {
                         }
                     }
                 ],
+
+                '@typescript-eslint/no-explicit-any': 'error',
 
                 '@typescript-eslint/no-inferrable-types': 'off',
 

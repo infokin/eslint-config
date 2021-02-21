@@ -1,4 +1,4 @@
-# ESLint Configuration
+# ESLint Configurations
 
 This package provides common ESLint configurations.
 

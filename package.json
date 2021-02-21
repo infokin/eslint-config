@@ -15,7 +15,6 @@
     "type": "git",
     "url": "https://github.com/infokin/eslint-config"
   },
-  "private": "true",
   "main": "typescript.js",
   "files": [
     "lib/base.js",
@@ -30,7 +29,7 @@
     "@angular-eslint/eslint-plugin": "^1.1.0",
     "@angular-eslint/eslint-plugin-template": "^1.1.0",
     "@angular-eslint/template-parser": "^1.1.0",
-    "@infokin/tsconfig": "github:infokin/tsconfig#v0.2.2",
+    "@infokin/tsconfig": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
     "eslint": "^7.17.0",

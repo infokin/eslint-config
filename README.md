@@ -7,11 +7,19 @@ This package provides common ESLint configurations.
 First, install this package via:
 
 ```bash
-npm install git://github.com/infokin/eslint-config#<version> --save-dev
+npm install @infokin/eslint-config --save-dev
 ```
 
-`version` can be a specific release version, e.g. `v0.1.0`. If `version` is omitted the package is installed from
-the `master` branch.
+This will install the latest version of this package from the default NPM package registry.
+Use `@infokin/eslint-config@<version>` to install a specific version.
+
+Or use:
+
+```bash
+npm install git://github.com/infokin/eslint-config --save-dev
+```
+
+This will install this package directly from the `master` branch on GitHub.
 
 After the installation, extend from a configuration provided by this package in your project's ESLint configuration
 file.
@@ -52,13 +60,14 @@ parserOptions: {
 This step is **not optional**.
 
 After extending from one of the provided ESLint configurations, you can add and override your project specific ESLint
-rules inside the `overrides` block.
+rules, preferably inside the `overrides` block.
 
 ## Development
 
 The `package.json` file provides two scripts:
 
-`lint` - this is used to check the code style for project related files (i.e. without linting the tests for the configurations)
+`lint` - this is used to check the code style for project related files (i.e. without linting the tests for the
+configurations)
 
 `test` - runs linting only for the tests to see whether the configurations work as intended
 

@@ -51,9 +51,14 @@ module.exports = {
                     }
                 ],
 
+                '@typescript-eslint/member-delimiter-style': 'error',
+
                 '@typescript-eslint/no-explicit-any': 'error',
 
                 '@typescript-eslint/no-inferrable-types': 'off',
+
+                'no-shadow': 'off',
+                '@typescript-eslint/no-shadow': 'error',
 
                 'no-unused-vars': 'off',
                 '@typescript-eslint/no-unused-vars': [

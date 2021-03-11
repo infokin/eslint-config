@@ -3,6 +3,12 @@
 // No console ('no-console')
 console.log('No console!');
 
+// No shadow variable (`@typescript-eslint/no-shadow`)
+const shadow: number = 5; // eslint-disable-line @typescript-eslint/no-unused-vars
+function method4(): void { // eslint-disable-line @typescript-eslint/no-unused-vars
+    const shadow: number = 3; // eslint-disable-line @typescript-eslint/no-unused-vars
+}
+
 // No `var` (`no-var`)
 var one: number = 1;
 
@@ -83,3 +89,9 @@ const user: User = new User();
 user.name = 'Klaus';
 user.age = 50;
 user.height = 180;
+
+// Member delimiter (`@typescript-eslint/member-delimiter-style`)
+interface MyInterface { // eslint-disable-line @typescript-eslint/no-unused-vars
+    member1: number
+    member2: number
+}

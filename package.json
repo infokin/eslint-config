@@ -1,6 +1,6 @@
 {
   "name": "@infokin/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Provides common ESLint configurations.",
   "author": {
     "name": "Johannes Hillert",

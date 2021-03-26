@@ -77,6 +77,16 @@ module.exports = {
                     'single'
                 ],
 
+                '@typescript-eslint/restrict-template-expressions': [
+                    'error',
+                    {
+                        'allowNumber': true,
+                        'allowBoolean': true,
+                        'allowAny': false,
+                        'allowNullish': true
+                    }
+                ],
+
                 'semi': 'off',
                 '@typescript-eslint/semi': 'error',
 

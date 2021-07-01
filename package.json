@@ -15,9 +15,8 @@
     "type": "git",
     "url": "https://github.com/infokin/eslint-config"
   },
-  "main": "typescript.js",
+  "main": "lib/base.js",
   "files": [
-    "lib/base.js",
     "typescript.js",
     "angular.js"
   ],

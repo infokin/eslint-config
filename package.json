@@ -2,18 +2,23 @@
   "name": "@infokin/eslint-config",
   "version": "1.2.1",
   "description": "Provides common ESLint configurations.",
+  "keywords": [
+    "eslint",
+    "configuration"
+  ],
+  "homepage": "https://github.com/infokin/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/infokin/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infokin/eslint-config.git"
+  },
+  "license": "MIT",
   "author": {
     "name": "Johannes Hillert",
     "email": "johannes.hillert@infokin.org",
     "url": "https://www.infokin.org"
-  },
-  "license": "MIT",
-  "keywords": [
-    "eslint"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/infokin/eslint-config"
   },
   "main": "lib/base.js",
   "files": [

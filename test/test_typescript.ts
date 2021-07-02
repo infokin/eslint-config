@@ -1,7 +1,7 @@
 //@formatter:off
 
-// No console ('no-console')
-console.log('No console!');
+// No console (`no-console`)
+console.log("No console!");
 
 // No shadow variable (`@typescript-eslint/no-shadow`)
 const shadow: number = 5; // eslint-disable-line @typescript-eslint/no-unused-vars
@@ -29,7 +29,7 @@ list.push(4);
 // No unused methods (`@typescript-eslint/no-unused-vars`)
 function method2(): void {
     // No unused variables (`@typescript-eslint/no-unused-vars`)
-    const tmp: string = 'unused';
+    const tmp: string = "unused";
 }
 
 // Ignore arguments with underscore (`argsIgnorePattern`)
@@ -45,7 +45,7 @@ class A {
 const classA: A = new A();
 method1(classA);
 
-// Use single quotes (`@typescript-eslint/quotes`)
+// Use double quotes (`@typescript-eslint/quotes`)
 let quotes: string = "double";
 quotes = 'single';
 method1(quotes);
@@ -66,11 +66,11 @@ class Goat {
     sound: unknown;
 }
 const goat: Goat = new Goat();
-goat.name = 'Bert';
-goat.sound = 'BLÖÖÖK';
+goat.name = "Bert";
+goat.sound = "BLÖÖÖK";
 
 // Variable needs type definition (`@typescript-eslint/typedef`)
-const str = 'Hello World!';
+const str = "Hello World!";
 method1(str);
 
 // Properties need type definition (`@typescript-eslint/typedef`)
@@ -86,7 +86,7 @@ class User implements Human {
     public height;
 }
 const user: User = new User();
-user.name = 'Klaus';
+user.name = "Klaus";
 user.age = 50;
 user.height = 180;
 

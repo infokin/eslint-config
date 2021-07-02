@@ -1,7 +1,7 @@
 //@formatter:off
 
-// No console ('no-console')
-console.log('No console!');
+// No console (`no-console`)
+console.log("No console!");
 
 // No shadow variable (`no-shadow`)
 const shadow = 5; // eslint-disable-line no-unused-vars
@@ -29,7 +29,7 @@ list.push(4);
 // No unused methods (warning) (`no-unused-vars`)
 function method2() {
     // No unused variables (warning) (`no-unused-vars`)
-    const tmp = 'unused';
+    const tmp = "unused";
 }
 
 // Ignore arguments with underscore (`argsIgnorePattern`)
@@ -38,7 +38,7 @@ function method1(_a1, _a2, _a3) {
 }
 method1();
 
-// Use single quotes (`quotes`)
+// Use double quotes (`quotes`)
 let quotes = "double";
 quotes = 'single';
 method1(quotes);

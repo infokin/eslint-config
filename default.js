@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * This is the base ESLint configuration that is used
@@ -15,7 +15,7 @@ module.exports = {
         ecmaVersion: 2020
     },
     extends: [
-        'eslint:recommended'
+        "eslint:recommended"
     ],
     rules: {
 
@@ -32,26 +32,26 @@ module.exports = {
          *
          */
 
-        'comma-dangle': 'error',
-        'consistent-return': 'error',
-        'no-console': 'error',
-        'no-shadow': 'error',
-        'no-unused-vars': [
-            'error',
+        "comma-dangle": "error",
+        "consistent-return": "error",
+        "no-console": "error",
+        "no-shadow": "error",
+        "no-unused-vars": [
+            "error",
             {
-                'argsIgnorePattern': '^_'
+                "argsIgnorePattern": "^_"
             }
         ],
-        'no-useless-constructor': 'error',
-        'no-var': 'error',
-        'prefer-const': 'error',
-        'quotes': 'error',
-        'semi': 'error',
-        'semi-spacing': [
-            'error',
+        "no-useless-constructor": "error",
+        "no-var": "error",
+        "prefer-const": "error",
+        "quotes": "error",
+        "semi": "error",
+        "semi-spacing": [
+            "error",
             {
-                'before': false,
-                'after': true
+                "before": false,
+                "after": true
             }
         ]
     }

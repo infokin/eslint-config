@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * This is the Angular specific ESLint configuration.
@@ -10,46 +10,50 @@ module.exports = {
         browser: true
     },
     extends: [
-        './default.js'
+        "./default.js"
     ],
     overrides: [
         {
-            files: ['*.ts'],
+            files: [
+                "*.ts"
+            ],
             parserOptions: {
-                project: './tsconfig.angular.json'
+                project: "./tsconfig.angular.json"
             },
             extends: [
-                './typescript.js',
-                'plugin:@angular-eslint/recommended',
-                'plugin:@angular-eslint/template/process-inline-templates'
+                "./typescript.js",
+                "plugin:@angular-eslint/recommended",
+                "plugin:@angular-eslint/template/process-inline-templates"
             ],
             rules: {
-                '@typescript-eslint/no-inferrable-types': 'off',
-                '@angular-eslint/component-selector': [
-                    'error',
+                "@typescript-eslint/no-inferrable-types": "off",
+                "@angular-eslint/component-selector": [
+                    "error",
                     {
-                        'type': 'element',
-                        'prefix': 'app',
-                        'style': 'kebab-case'
+                        "type": "element",
+                        "prefix": "app",
+                        "style": "kebab-case"
                     }
                 ],
-                '@angular-eslint/directive-selector': [
-                    'error',
+                "@angular-eslint/directive-selector": [
+                    "error",
                     {
-                        'type': 'attribute',
-                        'prefix': 'app',
-                        'style': 'camelCase'
+                        "type": "attribute",
+                        "prefix": "app",
+                        "style": "camelCase"
                     }
                 ]
             }
         },
         {
-            files: ['*.html'],
+            files: [
+                "*.html"
+            ],
             extends: [
-                'plugin:@angular-eslint/template/recommended'
+                "plugin:@angular-eslint/template/recommended"
             ],
             rules: {
-                '@angular-eslint/template/no-any': 'error'
+                "@angular-eslint/template/no-any": "error"
             }
         }
     ]

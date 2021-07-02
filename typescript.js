@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * This is the TypeScript specific ESLint configuration.
@@ -7,17 +7,17 @@
 module.exports = {
 
     extends: [
-        './default.js'
+        "./default.js"
     ],
     overrides: [
         {
-            files: ['*.ts'],
+            files: ["*.ts"],
             parserOptions: {
-                project: './tsconfig.json'
+                project: "./tsconfig.json"
             },
             extends: [
-                'plugin:@typescript-eslint/recommended',
-                'plugin:@typescript-eslint/recommended-requiring-type-checking'
+                "plugin:@typescript-eslint/recommended",
+                "plugin:@typescript-eslint/recommended-requiring-type-checking"
             ],
             rules: {
 
@@ -32,75 +32,75 @@ module.exports = {
                  *
                  */
 
-                'comma-dangle': 'off',
-                '@typescript-eslint/comma-dangle': 'error',
+                "comma-dangle": "off",
+                "@typescript-eslint/comma-dangle": "error",
 
-                '@typescript-eslint/explicit-function-return-type': 'error',
+                "@typescript-eslint/explicit-function-return-type": "error",
 
-                '@typescript-eslint/explicit-member-accessibility': [
-                    'error',
+                "@typescript-eslint/explicit-member-accessibility": [
+                    "error",
                     {
-                        'accessibility': 'explicit',
-                        'overrides': {
-                            'accessors': 'explicit',
-                            'constructors': 'no-public',
-                            'methods': 'explicit',
-                            'properties': 'explicit',
-                            'parameterProperties': 'explicit'
+                        "accessibility": "explicit",
+                        "overrides": {
+                            "accessors": "explicit",
+                            "constructors": "no-public",
+                            "methods": "explicit",
+                            "properties": "explicit",
+                            "parameterProperties": "explicit"
                         }
                     }
                 ],
 
-                '@typescript-eslint/member-delimiter-style': 'error',
+                "@typescript-eslint/member-delimiter-style": "error",
 
-                '@typescript-eslint/no-explicit-any': 'error',
+                "@typescript-eslint/no-explicit-any": "error",
 
-                '@typescript-eslint/no-inferrable-types': 'off',
+                "@typescript-eslint/no-inferrable-types": "off",
 
-                'no-shadow': 'off',
-                '@typescript-eslint/no-shadow': 'error',
+                "no-shadow": "off",
+                "@typescript-eslint/no-shadow": "error",
 
-                'no-unused-vars': 'off',
-                '@typescript-eslint/no-unused-vars': [
-                    'error',
+                "no-unused-vars": "off",
+                "@typescript-eslint/no-unused-vars": [
+                    "error",
                     {
-                        'argsIgnorePattern': '^_'
+                        "argsIgnorePattern": "^_"
                     }
                 ],
 
-                'no-useless-constructor': 'off',
-                '@typescript-eslint/no-useless-constructor': 'error',
+                "no-useless-constructor": "off",
+                "@typescript-eslint/no-useless-constructor": "error",
 
-                'quotes': 'off',
-                '@typescript-eslint/quotes': [
-                    'error',
-                    'single'
+                "quotes": "off",
+                "@typescript-eslint/quotes": [
+                    "error",
+                    "single"
                 ],
 
-                '@typescript-eslint/restrict-template-expressions': [
-                    'error',
+                "@typescript-eslint/restrict-template-expressions": [
+                    "error",
                     {
-                        'allowNumber': true,
-                        'allowBoolean': true,
-                        'allowAny': false,
-                        'allowNullish': true
+                        "allowNumber": true,
+                        "allowBoolean": true,
+                        "allowAny": false,
+                        "allowNullish": true
                     }
                 ],
 
-                'semi': 'off',
-                '@typescript-eslint/semi': 'error',
+                "semi": "off",
+                "@typescript-eslint/semi": "error",
 
-                '@typescript-eslint/typedef': [
-                    'error',
+                "@typescript-eslint/typedef": [
+                    "error",
                     {
-                        'arrayDestructuring': true,
-                        'arrowParameter': true,
-                        'memberVariableDeclaration': true,
-                        'objectDestructuring': true,
-                        'parameter': true,
-                        'propertyDeclaration': true,
-                        'variableDeclaration': true,
-                        'variableDeclarationIgnoreFunction': true
+                        "arrayDestructuring": true,
+                        "arrowParameter": true,
+                        "memberVariableDeclaration": true,
+                        "objectDestructuring": true,
+                        "parameter": true,
+                        "propertyDeclaration": true,
+                        "variableDeclaration": true,
+                        "variableDeclarationIgnoreFunction": true
                     }
                 ]
             }

@@ -45,10 +45,7 @@ module.exports = {
         'no-useless-constructor': 'error',
         'no-var': 'error',
         'prefer-const': 'error',
-        'quotes': [
-            'error',
-            'single'
-        ],
+        'quotes': 'error',
         'semi': 'error',
         'semi-spacing': [
             'error',

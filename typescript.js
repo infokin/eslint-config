@@ -72,10 +72,7 @@ module.exports = {
                 "@typescript-eslint/no-useless-constructor": "error",
 
                 "quotes": "off",
-                "@typescript-eslint/quotes": [
-                    "error",
-                    "single"
-                ],
+                "@typescript-eslint/quotes": "error",
 
                 "@typescript-eslint/restrict-template-expressions": [
                     "error",

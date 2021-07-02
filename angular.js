@@ -10,7 +10,7 @@ module.exports = {
         browser: true
     },
     extends: [
-        './lib/base.js'
+        './default.js'
     ],
     overrides: [
         {

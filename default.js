@@ -1,8 +1,8 @@
 'use strict';
 
 /**
- * This is the base ESLint configuration that is
- * used in every other configuration.
+ * This is the base ESLint configuration that is used
+ * in every other configuration.
  */
 
 module.exports = {

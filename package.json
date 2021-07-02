@@ -20,7 +20,7 @@
     "email": "johannes.hillert@infokin.org",
     "url": "https://www.infokin.org"
   },
-  "main": "lib/base.js",
+  "main": "default.js",
   "files": [
     "typescript.js",
     "angular.js"

@@ -7,7 +7,7 @@
 module.exports = {
 
     extends: [
-        './lib/base.js'
+        './default.js'
     ],
     overrides: [
         {

@@ -6,7 +6,7 @@ console.log("No console!");
 // No shadow variable (`no-shadow`)
 const shadow = 5; // eslint-disable-line no-unused-vars
 function method3() { // eslint-disable-line no-unused-vars
-    const shadow = 3; // eslint-disable-line no-unused-vars
+  const shadow = 3; // eslint-disable-line no-unused-vars
 }
 
 // No `var` (`no-var`)
@@ -28,13 +28,13 @@ list.push(4);
 
 // No unused methods (warning) (`no-unused-vars`)
 function method2() {
-    // No unused variables (warning) (`no-unused-vars`)
-    const tmp = "unused";
+  // No unused variables (warning) (`no-unused-vars`)
+  const tmp = "unused";
 }
 
 // Ignore arguments with underscore (`argsIgnorePattern`)
 function method1(_a1, _a2, _a3) {
-    list.push(5);
+  list.push(5);
 }
 method1();
 

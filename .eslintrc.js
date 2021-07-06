@@ -1,10 +1,8 @@
 "use strict";
 
 module.exports = {
-
-    root: true,
-    extends: [
-        "./typescript.js"
-    ]
-
+  root: true,
+  extends: [
+    "./typescript.js"
+  ]
 };

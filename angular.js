@@ -16,9 +16,6 @@ module.exports = {
       files: [
         "*.ts"
       ],
-      parserOptions: {
-        project: "./tsconfig.angular.json"
-      },
       extends: [
         "./typescript.js",
         "plugin:@angular-eslint/recommended",

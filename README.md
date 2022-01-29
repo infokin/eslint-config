@@ -2,7 +2,7 @@
 
 This package provides common ESLint configurations.
 
-## Usage
+## Installation
 
 First, install this package via:
 
@@ -21,45 +21,65 @@ npm install git://github.com/infokin/eslint-config --save-dev
 
 This will install this package directly from the `master` branch on GitHub.
 
-After the installation, extend from a configuration provided by this package in your project's ESLint configuration
-file.
+## Usage
 
-For example, extend from the TypeScript specific ESLint configuration like this in your `.eslintrc.js`:
+First, install and set up ESLint, see [here](https://eslint.org/docs/user-guide/getting-started#installation-and-usage)
+for further information on that.
 
-```javascript
-module.exports = {
-    extends: [
-        '@infokin/eslint-config/typescript'
-    ]
-}
-```
+Proceed with the installation of this package, then extend from a provided configuration of this package in your
+project's ESLint configuration file.
 
-You can also use `@infokin/eslint-config` as name, which has the same result as using the name above.
-
-To extend from the Angular specific ESLint configuration use:
+The configuration exported by default is the JavaScript configuration. Extend from it in your `.eslintrc.js` file like
+this:
 
 ```javascript
 module.exports = {
-    extends: [
-        '@infokin/eslint-config/angular'
-    ]
+  extends: [
+    '@infokin/eslint-config'
+  ]
 }
 ```
 
-To use the type checking capabilities in both the TypeScript and Angular specific ESLint configuration, you must
-specify `parserOptions.project` in your `.eslintrc` file.
+### TypeScript
 
-For example:
+To use the TypeScript specific ESLint configuration, TypeScript must be set up and running in your project.
+
+Your project's ESLint configuration needs to extend from `@infokin/eslint-config/typescript` like this:
 
 ```javascript
-parserOptions: {
-    project: './tsconfig.json'
+module.exports = {
+  extends: [
+    '@infokin/eslint-config/typescript'
+  ]
 }
 ```
 
-This step is **not optional**.
+The following additional dependencies must be installed so that ESLint can check TypeScript code:
 
-After extending from one of the provided ESLint configurations, you can add and override your project specific ESLint
+* [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
+
+### Angular
+
+Start by setting up ESLint for the Angular project. If no linter is set up, running `ng lint` for the first time will
+present options in the terminal to set up ESLint.
+
+When ESLint is configured and running for the Angular project, the Angular specific ESLint configuration from this
+package can be used by extending from `@infokin/eslint-config/angular` like this:
+
+```javascript
+module.exports = {
+  extends: [
+    '@infokin/eslint-config/angular'
+  ]
+}
+```
+
+It is recommended to also use the Angular specific TypeScript configuration
+from [this package](https://github.com/infokin/tsconfig).
+
+### Customization
+
+After extending from any of the provided ESLint configurations, you can add and override your project specific ESLint
 rules, preferably inside the `overrides` block.
 
 ## Development

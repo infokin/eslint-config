@@ -33,7 +33,7 @@
     "@angular-eslint/eslint-plugin": "^13.0.1",
     "@angular-eslint/eslint-plugin-template": "^13.0.1",
     "@angular-eslint/template-parser": "^13.0.1",
-    "@infokin/tsconfig": "^1.1.1",
+    "@infokin/tsconfig": "^1.1.2",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "eslint": "^8.8.0",

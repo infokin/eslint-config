@@ -33,6 +33,7 @@ module.exports = {
     "comma-dangle": "error",
     "consistent-return": "error",
     "no-console": "error",
+    "no-empty-function": "error",
     "no-shadow": "error",
     "no-unused-vars": [
       "error",

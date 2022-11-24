@@ -3,6 +3,9 @@
 // No console (`no-console`)
 console.log("No console!");
 
+// No empty function (`no-empty-function`)
+function emptyFunction() { } // eslint-disable-line no-unused-vars
+
 // No shadow variable (`no-shadow`)
 const shadow = 5; // eslint-disable-line no-unused-vars
 function method3() { // eslint-disable-line no-unused-vars

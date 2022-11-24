@@ -54,6 +54,16 @@ module.exports = {
 
         "@typescript-eslint/member-delimiter-style": "error",
 
+        "no-empty-functions": "off",
+        "@typescript-eslint/no-empty-function": [
+          "error",
+          {
+            "allow": [
+              "private-constructors"
+            ]
+          }
+        ],
+
         "@typescript-eslint/no-explicit-any": "error",
 
         "@typescript-eslint/no-inferrable-types": "off",

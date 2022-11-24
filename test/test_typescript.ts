@@ -45,6 +45,11 @@ class A {
 const classA: A = new A();
 method1(classA);
 
+// Allow empty constructor when accessibility is private (`@typescript-eslint/no-empty-function`)
+class B { // eslint-disable-line @typescript-eslint/no-unused-vars
+  private constructor() { }
+}
+
 // Use double quotes (`@typescript-eslint/quotes`)
 let quotes: string = "double";
 quotes = 'single';

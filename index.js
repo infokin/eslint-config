@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * This is the base ESLint configuration that is used in every other ESLint configuration.
+ * This is a common ESLint configuration.
  */
 
 module.exports = {
@@ -17,18 +17,7 @@ module.exports = {
   ],
   rules: {
 
-    /*
-     * Note
-     * ----
-     *
-     *   When adding a new ESLint rule (https://eslint.org/docs/rules/), check if there is a corresponding
-     *   TypeScript extension rule available for it at:
-     *
-     *   https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#extension-rules
-     *
-     *   If there is an extension rule available add that rule to the TypeScript configuration.
-     *
-     */
+    // For a list of available ESLint rules see: https://eslint.org/docs/rules/
 
     "comma-dangle": "error",
     "consistent-return": "error",

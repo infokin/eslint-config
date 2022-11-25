@@ -1,7 +1,7 @@
 {
   "name": "@infokin/eslint-config",
   "version": "1.4.0",
-  "description": "Provides common ESLint configurations.",
+  "description": "Provides a common ESLint configuration.",
   "keywords": [
     "eslint",
     "configuration"
@@ -20,23 +20,12 @@
     "email": "johannes.hillert@infokin.org",
     "url": "https://www.infokin.org"
   },
-  "main": "default.js",
-  "files": [
-    "typescript.js",
-    "angular.js"
-  ],
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint --ignore-pattern '/test/' --ext .js,.ts .",
-    "test": "eslint --ext .js,.ts ./test"
+    "lint": "eslint --ignore-pattern '/test/' .",
+    "test": "eslint ./test"
   },
   "devDependencies": {
-    "@angular-eslint/eslint-plugin": "^14.4.0",
-    "@angular-eslint/eslint-plugin-template": "^14.4.0",
-    "@angular-eslint/template-parser": "^14.4.0",
-    "@infokin/tsconfig": "^1.1.2",
-    "@typescript-eslint/eslint-plugin": "^5.44.0",
-    "@typescript-eslint/parser": "^5.44.0",
-    "eslint": "^8.28.0",
-    "typescript": "^4.9.3"
+    "eslint": "^8.28.0"
   }
 }

@@ -31,15 +31,15 @@ see [here](https://eslint.org/docs/user-guide/getting-started#installation-and-u
 Proceed with the installation of this package, then extend from the provided configuration in your project's ESLint
 configuration file.
 
-The configuration exported by default is the JavaScript configuration. To use it in your ESLint configuration extend
-from it in your project's `.eslintrc.js` file like this:
+A minimal example for your project's `.eslintrc.js` file could look like this:
 
 ```javascript
 module.exports = {
+  root: true,
   extends: [
     '@infokin/eslint-config'
   ]
-}
+};
 ```
 
 ### Customization
@@ -51,13 +51,13 @@ preferably inside the `overrides` block.
 
 The `package.json` file provides two scripts:
 
-`lint` - this is used to check the code style for project files without linting any tests
+`lint` - this is used to check the code style for project files without linting tests
 
 `test` - runs linting only for test files to check whether the configuration works as intended
 
 ## Bugs & Issues
 
-Something is not working as expected? Please report bugs or issues on
+Something is not working as expected? Please report bugs and issues on
 the [corresponding GitHub page](https://github.com/infokin/eslint-config/issues).
 
 ## Author

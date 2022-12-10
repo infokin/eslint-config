@@ -26,6 +26,7 @@
     "test": "eslint ./test"
   },
   "devDependencies": {
+    "@types/node": "^18.11.12",
     "eslint": "^8.28.0"
   }
 }

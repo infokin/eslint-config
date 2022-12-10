@@ -4,7 +4,7 @@
   "description": "Provides a common ESLint configuration.",
   "keywords": [
     "eslint",
-    "configuration"
+    "eslint-config"
   ],
   "homepage": "https://github.com/infokin/eslint-config#readme",
   "bugs": {

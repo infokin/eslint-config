@@ -57,8 +57,9 @@ The `package.json` file provides two scripts:
 
 ## Bugs & Issues
 
-Something is not working as expected? Please report bugs and issues on
-the [corresponding GitHub page](https://github.com/infokin/eslint-config/issues).
+If you're experiencing any issues or encountering any bugs, we would really appreciate it if you could report them on
+the [corresponding GitHub page](https://github.com/infokin/eslint-config/issues), so we can take a look and try to
+resolve them. Thank you for your help in making this project better!
 
 ## Author
 

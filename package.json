@@ -17,7 +17,7 @@
   "license": "MIT",
   "author": {
     "name": "Johannes Hillert",
-    "email": "johannes.hillert@infokin.org",
+    "email": "npm@infokin.org",
     "url": "https://www.infokin.org"
   },
   "main": "index.js",
